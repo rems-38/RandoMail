@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html, body {
+    width: 300px;
+    height: 350px;
+    font-family: 'Comfortaa', cursive;
+    overflow: hidden;
+}
+
+h1, h4 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: -10px;
+}
+
+.button{
+    display: block;
+    width: 210px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size:  16px;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: #1E90FF;
+    background-color: transparent;
+    border: 3px solid #1E90FF;
+    border-radius: 20px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 0 #1E90FF inset, 0 0 20px 2px #1E90FF;
+    border: 3px solid #1E90FF;
+}
+
+.content > div {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: -5px;
+}
+
+.email-random {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
